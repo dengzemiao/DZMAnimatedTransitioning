@@ -1,7 +1,7 @@
 # DZMAnimatedTransitioning
 
 #### 效果:
-![效果](icon0.gif)
+![效果](gif_0.gif)
 
 ***
 #### 简介:
