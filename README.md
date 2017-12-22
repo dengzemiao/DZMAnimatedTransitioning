@@ -31,3 +31,19 @@
     在返回操作中, 返回的转场动画也是通过它进行定位回到 VC1 中。
     
     注意: ATTarget 如果没有值 默认会使用 VC1.view 作为动画目标使用
+
+***
+#### 代码例子:
+```Objective-C
+- (IBAction)openBook:(UIButton *)sender {
+
+    // 指定动画对象(任意对象)
+    self.ATTarget = sender;
+
+    // TempViewController 继承于 DZMATViewController
+    TempViewController *vc = [[TempViewController alloc] init];
+
+    // 执行动画
+    [self.navigationController pushATViewController:vc animated:true];
+}
+```
