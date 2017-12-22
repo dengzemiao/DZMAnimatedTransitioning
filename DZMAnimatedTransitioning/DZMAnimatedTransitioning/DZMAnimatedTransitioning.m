@@ -22,7 +22,7 @@
 
 - (instancetype)initWithOperation:(UINavigationControllerOperation)operation {
     
-   return [self initWithOperation:operation duration:1.0];
+    return [self initWithOperation:operation duration:1.0];
 }
 
 - (instancetype)initWithOperation:(UINavigationControllerOperation)operation duration:(float)duration{
@@ -75,6 +75,13 @@
     
     contentView.frame = rect;
     
+    if (fromView.layer.cornerRadius > 0.0) {
+        
+        contentView.layer.cornerRadius = fromView.layer.cornerRadius;
+        
+        contentView.layer.masksToBounds = YES;
+    }
+    
     [containerView addSubview:contentView];
     
     
@@ -88,12 +95,12 @@
     
     
     coverView.layer.anchorPoint = CGPointMake(0, 0.5);
-
+    
     coverView.opaque = YES;
     
     
     CATransform3D transform = CATransform3DMakeRotation(-M_PI_2 , 0.0, 1.0, 0.0);
-
+    
     transform.m34 = 1.0f / 500.0f;
     
     [UIView animateWithDuration:[self transitionDuration:transitionContext] delay:0.0f options:UIViewAnimationOptionCurveEaseInOut animations:^{
@@ -139,6 +146,13 @@
     UIView *contentView = [self GetImageView:[self screenCapture:from.view]];
     
     contentView.frame = from.view.bounds;
+    
+    if (toView.layer.cornerRadius > 0.0) {
+        
+        contentView.layer.cornerRadius = toView.layer.cornerRadius;
+        
+        contentView.layer.masksToBounds = YES;
+    }
     
     [containerView addSubview:contentView];
     
@@ -200,3 +214,4 @@
 }
 
 @end
+

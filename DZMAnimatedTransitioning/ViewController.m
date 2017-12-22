@@ -11,6 +11,8 @@
 
 @interface ViewController ()
 
+@property (weak, nonatomic) IBOutlet UIButton *openButton;
+
 @end
 
 @implementation ViewController
@@ -20,6 +22,9 @@
     [super viewDidLoad];
     
     self.title = @"书籍阅读转场动画";
+    
+    // 支持圆角等处理
+    self.openButton.layer.cornerRadius = 10;
     
     /*
      
