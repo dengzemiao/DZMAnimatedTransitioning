@@ -78,7 +78,7 @@
     [containerView addSubview:contentView];
     
     
-    UIView *coverView = [self GetImageView: [self screenCapture:fromView]];
+    UIImageView *coverView = [self GetImageView: [self screenCapture:fromView]];
     
     coverView.tag = DZM_TAG_COVER;
     
@@ -105,6 +105,8 @@
         coverView.layer.transform = transform;
         
     } completion:^(BOOL finished) {
+        
+        coverView.image = nil;
         
         coverView.hidden = YES;
         
@@ -141,7 +143,9 @@
     [containerView addSubview:contentView];
     
     
-    UIView *coverView = [containerView viewWithTag:DZM_TAG_COVER];
+    UIImageView *coverView = [containerView viewWithTag:DZM_TAG_COVER];
+    
+    coverView.image = [self screenCapture:toView];
     
     coverView.hidden = NO;
     
