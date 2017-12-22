@@ -10,6 +10,7 @@
 
 @interface UINavigationController (DZM)
 
+/// 执行转场动画
 - (void)pushATViewController:(UIViewController *)viewController animated:(BOOL)animated;
 
 @end
