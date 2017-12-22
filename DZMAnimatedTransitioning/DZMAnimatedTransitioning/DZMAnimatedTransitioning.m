@@ -14,26 +14,26 @@
 
 @property (nonatomic, assign) UINavigationControllerOperation operation;
 
+@property (nonatomic, assign, readonly) float duration;
+
 @end
 
 @implementation DZMAnimatedTransitioning
 
 - (instancetype)initWithOperation:(UINavigationControllerOperation)operation {
     
-   return [self initWithOperation:operation target:nil];
+   return [self initWithOperation:operation duration:1.0];
 }
 
-- (instancetype)initWithOperation:(UINavigationControllerOperation)operation target:(UIView *)target {
+- (instancetype)initWithOperation:(UINavigationControllerOperation)operation duration:(float)duration{
     
     self = [super init];
     
     if (self) {
         
-        self.duration = 1.0;
+        _duration = duration;
         
-        self.operation = operation;
-        
-        self.target = target;
+        _operation = operation;
     }
     
     return self;
@@ -66,7 +66,7 @@
     UIView *containerView = [transitionContext containerView];
     
     
-    UIView *fromView = (self.target != nil ? self.target : from.view);
+    UIView *fromView = (from.ATTarget != nil ? from.ATTarget : from.view);
     
     CGRect rect = [fromView convertRect:fromView.bounds toView:containerView];
     
@@ -129,7 +129,7 @@
     [containerView addSubview:to.view];
     
     
-    UIView *toView = (self.target != nil ? self.target : to.view);
+    UIView *toView = (to.ATTarget != nil ? to.ATTarget : to.view);
     
     CGRect rect = [toView convertRect:toView.bounds toView:containerView];
     
@@ -193,11 +193,6 @@
     UIGraphicsEndImageContext();
     
     return image;
-}
-
-- (void)dealloc {
-    
-    self.target = nil;
 }
 
 @end

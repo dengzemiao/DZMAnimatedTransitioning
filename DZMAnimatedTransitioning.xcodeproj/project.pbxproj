@@ -18,6 +18,7 @@
 		AF2FE9FE1FEA4EEC0061EFAD /* DZMAnimatedTransitioningUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = AF2FE9FD1FEA4EEC0061EFAD /* DZMAnimatedTransitioningUITests.m */; };
 		AF2FEA111FEA4F0E0061EFAD /* DZMAnimatedTransitioning.m in Sources */ = {isa = PBXBuildFile; fileRef = AF2FEA101FEA4F0E0061EFAD /* DZMAnimatedTransitioning.m */; };
 		AF2FEA141FEA5F340061EFAD /* DZMATViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AF2FEA131FEA5F340061EFAD /* DZMATViewController.m */; };
+		AF7BC6461FECB17E00F2863F /* NSObject+DZM.m in Sources */ = {isa = PBXBuildFile; fileRef = AF7BC6451FECB17E00F2863F /* NSObject+DZM.m */; };
 		AFC6511D1FEB9F4000508ADA /* TempViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AFC6511C1FEB9F4000508ADA /* TempViewController.m */; };
 /* End PBXBuildFile section */
 
@@ -61,6 +62,8 @@
 		AF2FEA101FEA4F0E0061EFAD /* DZMAnimatedTransitioning.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DZMAnimatedTransitioning.m; sourceTree = "<group>"; };
 		AF2FEA121FEA5F340061EFAD /* DZMATViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DZMATViewController.h; sourceTree = "<group>"; };
 		AF2FEA131FEA5F340061EFAD /* DZMATViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DZMATViewController.m; sourceTree = "<group>"; };
+		AF7BC6441FECB17E00F2863F /* NSObject+DZM.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+DZM.h"; sourceTree = "<group>"; };
+		AF7BC6451FECB17E00F2863F /* NSObject+DZM.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+DZM.m"; sourceTree = "<group>"; };
 		AFC6511B1FEB9F4000508ADA /* TempViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TempViewController.h; sourceTree = "<group>"; };
 		AFC6511C1FEB9F4000508ADA /* TempViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TempViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -156,6 +159,8 @@
 				AF0CF34E1FEB763F00E056C8 /* UINavigationController+DZM.m */,
 				AF2FEA0F1FEA4F0E0061EFAD /* DZMAnimatedTransitioning.h */,
 				AF2FEA101FEA4F0E0061EFAD /* DZMAnimatedTransitioning.m */,
+				AF7BC6441FECB17E00F2863F /* NSObject+DZM.h */,
+				AF7BC6451FECB17E00F2863F /* NSObject+DZM.m */,
 			);
 			path = DZMAnimatedTransitioning;
 			sourceTree = "<group>";
@@ -300,6 +305,7 @@
 				AF2FE9E91FEA4EEB0061EFAD /* main.m in Sources */,
 				AFC6511D1FEB9F4000508ADA /* TempViewController.m in Sources */,
 				AF2FE9DB1FEA4EEB0061EFAD /* AppDelegate.m in Sources */,
+				AF7BC6461FECB17E00F2863F /* NSObject+DZM.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -24,9 +24,9 @@
 
 - (IBAction)openBook:(UIButton *)sender {
     
-    TempViewController *vc = [[TempViewController alloc] init];
+    self.ATTarget = sender;
     
-    vc.target = sender;
+    TempViewController *vc = [[TempViewController alloc] init];
     
     [self.navigationController pushATViewController:vc animated:true];
 }

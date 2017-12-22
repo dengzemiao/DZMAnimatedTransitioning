@@ -12,7 +12,4 @@
 
 @interface DZMATViewController : UIViewController<UINavigationControllerDelegate>
 
-/// 目标视图 有值: 则作为转场封面 无值: 则使用主控制器作为转场封面
-@property (nonatomic, weak, nullable) UIView *target;
-
 @end

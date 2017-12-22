@@ -42,7 +42,7 @@
 
 - (id<UIViewControllerAnimatedTransitioning>)navigationController:(UINavigationController *)navigationController animationControllerForOperation:(UINavigationControllerOperation)operation fromViewController:(UIViewController *)fromVC toViewController:(UIViewController *)toVC {
 
-    return [[DZMAnimatedTransitioning alloc] initWithOperation:operation target:self.target];
+    return [[DZMAnimatedTransitioning alloc] initWithOperation:operation];
 }
 
 @end
