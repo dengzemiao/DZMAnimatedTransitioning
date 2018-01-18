@@ -10,6 +10,8 @@
 
 @interface DZMATViewController ()
 
+@property (nonatomic, assign) BOOL isAT;
+
 @end
 
 @implementation DZMATViewController
@@ -41,8 +43,13 @@
 }
 
 - (id<UIViewControllerAnimatedTransitioning>)navigationController:(UINavigationController *)navigationController animationControllerForOperation:(UINavigationControllerOperation)operation fromViewController:(UIViewController *)fromVC toViewController:(UIViewController *)toVC {
-
-    return [[DZMAnimatedTransitioning alloc] initWithOperation:operation];
+    
+    if (self.isAT) {
+        
+        return [[DZMAnimatedTransitioning alloc] initWithOperation:operation];
+    }
+    
+    return nil;
 }
 
 @end
