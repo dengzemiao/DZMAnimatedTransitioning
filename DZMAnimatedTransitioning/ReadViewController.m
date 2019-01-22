@@ -1,18 +1,18 @@
 //
-//  TempViewController.m
+//  ReadViewController.m
 //  DZMAnimatedTransitioning
 //
 //  Created by 邓泽淼 on 2017/12/21.
 //  Copyright © 2017年 邓泽淼. All rights reserved.
 //
 
-#import "TempViewController.h"
+#import "ReadViewController.h"
 
-@interface TempViewController ()
+@interface ReadViewController ()
 
 @end
 
-@implementation TempViewController
+@implementation ReadViewController
 
 - (void)viewDidLoad {
     

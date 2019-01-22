@@ -1,5 +1,5 @@
 //
-//  TempViewController.h
+//  ReadViewController.h
 //  DZMAnimatedTransitioning
 //
 //  Created by 邓泽淼 on 2017/12/21.
@@ -8,6 +8,6 @@
 
 #import "DZMATViewController.h"
 
-@interface TempViewController : DZMATViewController
+@interface ReadViewController : DZMATViewController
 
 @end
