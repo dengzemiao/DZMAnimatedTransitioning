@@ -1,5 +1,5 @@
 //
-//  NSObject+DZM.h
+//  UIViewController+DZM.h
 //  DZMAnimatedTransitioning
 //
 //  Created by 邓泽淼 on 2017/12/22.
@@ -9,7 +9,7 @@
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
 
-@interface NSObject (DZM)
+@interface UIViewController (DZM)
 
 /**
  简介:

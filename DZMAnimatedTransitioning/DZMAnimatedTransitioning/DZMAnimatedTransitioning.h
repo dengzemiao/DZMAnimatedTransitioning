@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
-#import "NSObject+DZM.h"
+#import "UIViewController+DZM.h"
 
 @interface DZMAnimatedTransitioning : NSObject<UIViewControllerAnimatedTransitioning>
 

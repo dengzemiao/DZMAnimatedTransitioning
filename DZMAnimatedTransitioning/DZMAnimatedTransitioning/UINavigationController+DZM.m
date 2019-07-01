@@ -15,8 +15,6 @@
     
     if ([viewController isKindOfClass:[DZMATViewController class]]) {
 
-        [viewController setValue:[NSNumber numberWithBool:YES] forKey:@"isAT"];
-        
         self.delegate = (id<UINavigationControllerDelegate>)viewController;
     }
     

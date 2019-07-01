@@ -8,12 +8,6 @@
 
 #import "DZMATViewController.h"
 
-@interface DZMATViewController ()
-
-@property (nonatomic, assign) BOOL isAT;
-
-@end
-
 @implementation DZMATViewController
 
 - (void)viewDidLoad {
@@ -44,10 +38,21 @@
 
 - (id<UIViewControllerAnimatedTransitioning>)navigationController:(UINavigationController *)navigationController animationControllerForOperation:(UINavigationControllerOperation)operation fromViewController:(UIViewController *)fromVC toViewController:(UIViewController *)toVC {
     
-    if (self.isAT) {
+    if (operation == UINavigationControllerOperationPush) {
         
-        return [[DZMAnimatedTransitioning alloc] initWithOperation:operation];
-    }
+        if (fromVC.ATTarget) {
+            
+            return [[DZMAnimatedTransitioning alloc] initWithOperation:operation];
+        }
+        
+    }else if (operation == UINavigationControllerOperationPop) {
+        
+        if (toVC.ATTarget) {
+            
+            return [[DZMAnimatedTransitioning alloc] initWithOperation:operation];
+        }
+        
+    }else{ }
     
     return nil;
 }

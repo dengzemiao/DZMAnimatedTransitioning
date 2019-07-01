@@ -21,6 +21,15 @@
     self.view.backgroundColor = [UIColor greenColor];
 }
 
+- (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
+    
+    UIViewController *vc = [[UIViewController alloc] init];
+    
+    vc.view.backgroundColor = UIColor.whiteColor;
+    
+    [self.navigationController pushViewController:vc animated:YES];
+}
+
 - (void)didReceiveMemoryWarning {
     
     [super didReceiveMemoryWarning];

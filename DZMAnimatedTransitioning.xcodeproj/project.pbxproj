@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		AF0CF34F1FEB763F00E056C8 /* UINavigationController+DZM.m in Sources */ = {isa = PBXBuildFile; fileRef = AF0CF34E1FEB763F00E056C8 /* UINavigationController+DZM.m */; };
+		AF27531A22C9B75E00043AF4 /* UINavigationController+DZM.m in Sources */ = {isa = PBXBuildFile; fileRef = AF27531822C9B75E00043AF4 /* UINavigationController+DZM.m */; };
 		AF2FE9DB1FEA4EEB0061EFAD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AF2FE9DA1FEA4EEB0061EFAD /* AppDelegate.m */; };
 		AF2FE9E11FEA4EEB0061EFAD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF2FE9DF1FEA4EEB0061EFAD /* Main.storyboard */; };
 		AF2FE9E31FEA4EEB0061EFAD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF2FE9E21FEA4EEB0061EFAD /* Assets.xcassets */; };
@@ -19,7 +19,7 @@
 		AF2FEA141FEA5F340061EFAD /* DZMATViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AF2FEA131FEA5F340061EFAD /* DZMATViewController.m */; };
 		AF3BDE4921F6FAC300E16756 /* ButtonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AF3BDE4821F6FAC300E16756 /* ButtonViewController.m */; };
 		AF3BDE4C21F6FB2F00E16756 /* MainTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AF3BDE4B21F6FB2F00E16756 /* MainTableViewController.m */; };
-		AF7BC6461FECB17E00F2863F /* NSObject+DZM.m in Sources */ = {isa = PBXBuildFile; fileRef = AF7BC6451FECB17E00F2863F /* NSObject+DZM.m */; };
+		AF7BC6461FECB17E00F2863F /* UIViewController+DZM.m in Sources */ = {isa = PBXBuildFile; fileRef = AF7BC6451FECB17E00F2863F /* UIViewController+DZM.m */; };
 		AFAA433921F7002B0060C58D /* CollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AFAA433821F7002B0060C58D /* CollectionViewController.m */; };
 		AFAA433C21F700A70060C58D /* CollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AFAA433B21F700A70060C58D /* CollectionViewCell.m */; };
 		AFC6511D1FEB9F4000508ADA /* ReadViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AFC6511C1FEB9F4000508ADA /* ReadViewController.m */; };
@@ -43,8 +43,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		AF0CF34D1FEB763F00E056C8 /* UINavigationController+DZM.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+DZM.h"; sourceTree = "<group>"; };
-		AF0CF34E1FEB763F00E056C8 /* UINavigationController+DZM.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+DZM.m"; sourceTree = "<group>"; };
+		AF27531822C9B75E00043AF4 /* UINavigationController+DZM.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+DZM.m"; sourceTree = "<group>"; };
+		AF27531922C9B75E00043AF4 /* UINavigationController+DZM.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+DZM.h"; sourceTree = "<group>"; };
 		AF2FE9D61FEA4EEB0061EFAD /* DZMAnimatedTransitioning.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DZMAnimatedTransitioning.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF2FE9D91FEA4EEB0061EFAD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		AF2FE9DA1FEA4EEB0061EFAD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -67,8 +67,8 @@
 		AF3BDE4821F6FAC300E16756 /* ButtonViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ButtonViewController.m; sourceTree = "<group>"; };
 		AF3BDE4A21F6FB2F00E16756 /* MainTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainTableViewController.h; sourceTree = "<group>"; };
 		AF3BDE4B21F6FB2F00E16756 /* MainTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainTableViewController.m; sourceTree = "<group>"; };
-		AF7BC6441FECB17E00F2863F /* NSObject+DZM.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+DZM.h"; sourceTree = "<group>"; };
-		AF7BC6451FECB17E00F2863F /* NSObject+DZM.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+DZM.m"; sourceTree = "<group>"; };
+		AF7BC6441FECB17E00F2863F /* UIViewController+DZM.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIViewController+DZM.h"; sourceTree = "<group>"; };
+		AF7BC6451FECB17E00F2863F /* UIViewController+DZM.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+DZM.m"; sourceTree = "<group>"; };
 		AFAA433721F7002B0060C58D /* CollectionViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CollectionViewController.h; sourceTree = "<group>"; };
 		AFAA433821F7002B0060C58D /* CollectionViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CollectionViewController.m; sourceTree = "<group>"; };
 		AFAA433A21F700A70060C58D /* CollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CollectionViewCell.h; sourceTree = "<group>"; };
@@ -170,12 +170,12 @@
 			children = (
 				AF2FEA121FEA5F340061EFAD /* DZMATViewController.h */,
 				AF2FEA131FEA5F340061EFAD /* DZMATViewController.m */,
-				AF0CF34D1FEB763F00E056C8 /* UINavigationController+DZM.h */,
-				AF0CF34E1FEB763F00E056C8 /* UINavigationController+DZM.m */,
+				AF27531922C9B75E00043AF4 /* UINavigationController+DZM.h */,
+				AF27531822C9B75E00043AF4 /* UINavigationController+DZM.m */,
 				AF2FEA0F1FEA4F0E0061EFAD /* DZMAnimatedTransitioning.h */,
 				AF2FEA101FEA4F0E0061EFAD /* DZMAnimatedTransitioning.m */,
-				AF7BC6441FECB17E00F2863F /* NSObject+DZM.h */,
-				AF7BC6451FECB17E00F2863F /* NSObject+DZM.m */,
+				AF7BC6441FECB17E00F2863F /* UIViewController+DZM.h */,
+				AF7BC6451FECB17E00F2863F /* UIViewController+DZM.m */,
 			);
 			path = DZMAnimatedTransitioning;
 			sourceTree = "<group>";
@@ -314,7 +314,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				AF2FEA141FEA5F340061EFAD /* DZMATViewController.m in Sources */,
-				AF0CF34F1FEB763F00E056C8 /* UINavigationController+DZM.m in Sources */,
 				AF2FEA111FEA4F0E0061EFAD /* DZMAnimatedTransitioning.m in Sources */,
 				AF3BDE4921F6FAC300E16756 /* ButtonViewController.m in Sources */,
 				AF2FE9E91FEA4EEB0061EFAD /* main.m in Sources */,
@@ -323,7 +322,8 @@
 				AF3BDE4C21F6FB2F00E16756 /* MainTableViewController.m in Sources */,
 				AFAA433921F7002B0060C58D /* CollectionViewController.m in Sources */,
 				AFAA433C21F700A70060C58D /* CollectionViewCell.m in Sources */,
-				AF7BC6461FECB17E00F2863F /* NSObject+DZM.m in Sources */,
+				AF27531A22C9B75E00043AF4 /* UINavigationController+DZM.m in Sources */,
+				AF7BC6461FECB17E00F2863F /* UIViewController+DZM.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
