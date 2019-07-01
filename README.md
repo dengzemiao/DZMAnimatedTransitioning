@@ -20,7 +20,7 @@
     
     执行动画的对象简介:
     
-    基于 NSObject 扩展了 ATTarget 属性。(不用考虑图层层级问题, 无论多深的嵌套子视图都可以指定)
+    基于 UIViewController 扩展了 ATTarget 属性。(不用考虑图层层级问题, 无论多深的嵌套子视图都可以指定)
     
     ATTarget 简介:
     
@@ -43,7 +43,7 @@
     // TempViewController 继承于 DZMATViewController
     TempViewController *vc = [[TempViewController alloc] init];
 
-    // 执行动画
+    // 执行动画(只有在当 self.ATTarget 有值的时候生效, self.ATTarget 无值调用走系统跳转)
     [self.navigationController pushATViewController:vc animated:true];
 }
 ```
